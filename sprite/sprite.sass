@@ -1,0 +1,358 @@
+/*
+  SASS variables are information about icon's compiled state, stored under its original file name
+
+  .icon-home
+    width: $icon-home-width
+
+  The large array-like variables contain all information about a single icon
+  $icon-home: x y offset_x offset_y width height total_width total_height image_path
+
+  At the bottom of this section, we provide information about the spritesheet itself
+  $spritesheet: width height image $spritesheet-sprites
+  */
+$access-arrow-name: 'access-arrow'
+$access-arrow-x: 95px
+$access-arrow-y: 60px
+$access-arrow-offset-x: -95px
+$access-arrow-offset-y: -60px
+$access-arrow-width: 48px
+$access-arrow-height: 30px
+$access-arrow-total-width: 221px
+$access-arrow-total-height: 200px
+$access-arrow-image: 'sprite.png'
+$access-arrow: (95px, 60px, -95px, -60px, 48px, 30px, 221px, 200px, 'sprite.png', 'access-arrow', )
+$access-pay-name: 'access-pay'
+$access-pay-x: 0px
+$access-pay-y: 0px
+$access-pay-offset-x: 0px
+$access-pay-offset-y: 0px
+$access-pay-width: 49px
+$access-pay-height: 48px
+$access-pay-total-width: 221px
+$access-pay-total-height: 200px
+$access-pay-image: 'sprite.png'
+$access-pay: (0px, 0px, 0px, 0px, 49px, 48px, 221px, 200px, 'sprite.png', 'access-pay', )
+$access-print-name: 'access-print'
+$access-print-x: 49px
+$access-print-y: 0px
+$access-print-offset-x: -49px
+$access-print-offset-y: 0px
+$access-print-width: 46px
+$access-print-height: 48px
+$access-print-total-width: 221px
+$access-print-total-height: 200px
+$access-print-image: 'sprite.png'
+$access-print: (49px, 0px, -49px, 0px, 46px, 48px, 221px, 200px, 'sprite.png', 'access-print', )
+$access-show-name: 'access-show'
+$access-show-x: 0px
+$access-show-y: 48px
+$access-show-offset-x: 0px
+$access-show-offset-y: -48px
+$access-show-width: 48px
+$access-show-height: 49px
+$access-show-total-width: 221px
+$access-show-total-height: 200px
+$access-show-image: 'sprite.png'
+$access-show: (0px, 48px, 0px, -48px, 48px, 49px, 221px, 200px, 'sprite.png', 'access-show', )
+$card-master-name: 'card-master'
+$card-master-x: 95px
+$card-master-y: 30px
+$card-master-offset-x: -95px
+$card-master-offset-y: -30px
+$card-master-width: 50px
+$card-master-height: 30px
+$card-master-total-width: 221px
+$card-master-total-height: 200px
+$card-master-image: 'sprite.png'
+$card-master: (95px, 30px, -95px, -30px, 50px, 30px, 221px, 200px, 'sprite.png', 'card-master', )
+$card-visa-name: 'card-visa'
+$card-visa-x: 95px
+$card-visa-y: 0px
+$card-visa-offset-x: -95px
+$card-visa-offset-y: 0px
+$card-visa-width: 73px
+$card-visa-height: 30px
+$card-visa-total-width: 221px
+$card-visa-total-height: 200px
+$card-visa-image: 'sprite.png'
+$card-visa: (95px, 0px, -95px, 0px, 73px, 30px, 221px, 200px, 'sprite.png', 'card-visa', )
+$checkbox-name: 'checkbox'
+$checkbox-x: 49px
+$checkbox-y: 48px
+$checkbox-offset-x: -49px
+$checkbox-offset-y: -48px
+$checkbox-width: 32px
+$checkbox-height: 32px
+$checkbox-total-width: 221px
+$checkbox-total-height: 200px
+$checkbox-image: 'sprite.png'
+$checkbox: (49px, 48px, -49px, -48px, 32px, 32px, 221px, 200px, 'sprite.png', 'checkbox', )
+$footer-mail-name: 'footer-mail'
+$footer-mail-x: 100px
+$footer-mail-y: 97px
+$footer-mail-offset-x: -100px
+$footer-mail-offset-y: -97px
+$footer-mail-width: 25px
+$footer-mail-height: 18px
+$footer-mail-total-width: 221px
+$footer-mail-total-height: 200px
+$footer-mail-image: 'sprite.png'
+$footer-mail: (100px, 97px, -100px, -97px, 25px, 18px, 221px, 200px, 'sprite.png', 'footer-mail', )
+$footer-map-name: 'footer-map'
+$footer-map-x: 200px
+$footer-map-y: 33px
+$footer-map-offset-x: -200px
+$footer-map-offset-y: -33px
+$footer-map-width: 20px
+$footer-map-height: 28px
+$footer-map-total-width: 221px
+$footer-map-total-height: 200px
+$footer-map-image: 'sprite.png'
+$footer-map: (200px, 33px, -200px, -33px, 20px, 28px, 221px, 200px, 'sprite.png', 'footer-map', )
+$footer-tel-name: 'footer-tel'
+$footer-tel-x: 143px
+$footer-tel-y: 60px
+$footer-tel-offset-x: -143px
+$footer-tel-offset-y: -60px
+$footer-tel-width: 25px
+$footer-tel-height: 26px
+$footer-tel-total-width: 221px
+$footer-tel-total-height: 200px
+$footer-tel-image: 'sprite.png'
+$footer-tel: (143px, 60px, -143px, -60px, 25px, 26px, 221px, 200px, 'sprite.png', 'footer-tel', )
+$menu-tel-name: 'menu-tel'
+$menu-tel-x: 0px
+$menu-tel-y: 174px
+$menu-tel-offset-x: 0px
+$menu-tel-offset-y: -174px
+$menu-tel-width: 25px
+$menu-tel-height: 26px
+$menu-tel-total-width: 221px
+$menu-tel-total-height: 200px
+$menu-tel-image: 'sprite.png'
+$menu-tel: (0px, 174px, 0px, -174px, 25px, 26px, 221px, 200px, 'sprite.png', 'menu-tel', )
+$services-bar-name: 'services-bar'
+$services-bar-x: 168px
+$services-bar-y: 87px
+$services-bar-offset-x: -168px
+$services-bar-offset-y: -87px
+$services-bar-width: 25px
+$services-bar-height: 32px
+$services-bar-total-width: 221px
+$services-bar-total-height: 200px
+$services-bar-image: 'sprite.png'
+$services-bar: (168px, 87px, -168px, -87px, 25px, 32px, 221px, 200px, 'sprite.png', 'services-bar', )
+$services-buffet-name: 'services-buffet'
+$services-buffet-x: 168px
+$services-buffet-y: 119px
+$services-buffet-offset-x: -168px
+$services-buffet-offset-y: -119px
+$services-buffet-width: 31px
+$services-buffet-height: 24px
+$services-buffet-total-width: 221px
+$services-buffet-total-height: 200px
+$services-buffet-image: 'sprite.png'
+$services-buffet: (168px, 119px, -168px, -119px, 31px, 24px, 221px, 200px, 'sprite.png', 'services-buffet', )
+$services-business-name: 'services-business'
+$services-business-x: 168px
+$services-business-y: 61px
+$services-business-offset-x: -168px
+$services-business-offset-y: -61px
+$services-business-width: 32px
+$services-business-height: 26px
+$services-business-total-width: 221px
+$services-business-total-height: 200px
+$services-business-image: 'sprite.png'
+$services-business: (168px, 61px, -168px, -61px, 32px, 26px, 221px, 200px, 'sprite.png', 'services-business', )
+$services-coffe-name: 'services-coffe'
+$services-coffe-x: 64px
+$services-coffe-y: 117px
+$services-coffe-offset-x: -64px
+$services-coffe-offset-y: -117px
+$services-coffe-width: 32px
+$services-coffe-height: 32px
+$services-coffe-total-width: 221px
+$services-coffe-total-height: 200px
+$services-coffe-image: 'sprite.png'
+$services-coffe: (64px, 117px, -64px, -117px, 32px, 32px, 221px, 200px, 'sprite.png', 'services-coffe', )
+$services-drink-name: 'services-drink'
+$services-drink-x: 200px
+$services-drink-y: 0px
+$services-drink-offset-x: -200px
+$services-drink-offset-y: 0px
+$services-drink-width: 21px
+$services-drink-height: 33px
+$services-drink-total-width: 221px
+$services-drink-total-height: 200px
+$services-drink-image: 'sprite.png'
+$services-drink: (200px, 0px, -200px, 0px, 21px, 33px, 221px, 200px, 'sprite.png', 'services-drink', )
+$services-info-name: 'services-info'
+$services-info-x: 200px
+$services-info-y: 61px
+$services-info-offset-x: -200px
+$services-info-offset-y: -61px
+$services-info-width: 16px
+$services-info-height: 32px
+$services-info-total-width: 221px
+$services-info-total-height: 200px
+$services-info-image: 'sprite.png'
+$services-info: (200px, 61px, -200px, -61px, 16px, 32px, 221px, 200px, 'sprite.png', 'services-info', )
+$services-internet-name: 'services-internet'
+$services-internet-x: 0px
+$services-internet-y: 149px
+$services-internet-offset-x: 0px
+$services-internet-offset-y: -149px
+$services-internet-width: 33px
+$services-internet-height: 25px
+$services-internet-total-width: 221px
+$services-internet-total-height: 200px
+$services-internet-image: 'sprite.png'
+$services-internet: (0px, 149px, 0px, -149px, 33px, 25px, 221px, 200px, 'sprite.png', 'services-internet', )
+$services-kids-name: 'services-kids'
+$services-kids-x: 168px
+$services-kids-y: 31px
+$services-kids-offset-x: -168px
+$services-kids-offset-y: -31px
+$services-kids-width: 32px
+$services-kids-height: 30px
+$services-kids-total-width: 221px
+$services-kids-total-height: 200px
+$services-kids-image: 'sprite.png'
+$services-kids: (168px, 31px, -168px, -31px, 32px, 30px, 221px, 200px, 'sprite.png', 'services-kids', )
+$services-press-name: 'services-press'
+$services-press-x: 32px
+$services-press-y: 117px
+$services-press-offset-x: -32px
+$services-press-offset-y: -117px
+$services-press-width: 32px
+$services-press-height: 32px
+$services-press-total-width: 221px
+$services-press-total-height: 200px
+$services-press-image: 'sprite.png'
+$services-press: (32px, 117px, -32px, -117px, 32px, 32px, 221px, 200px, 'sprite.png', 'services-press', )
+$services-shower-name: 'services-shower'
+$services-shower-x: 0px
+$services-shower-y: 117px
+$services-shower-offset-x: 0px
+$services-shower-offset-y: -117px
+$services-shower-width: 32px
+$services-shower-height: 32px
+$services-shower-total-width: 221px
+$services-shower-total-height: 200px
+$services-shower-image: 'sprite.png'
+$services-shower: (0px, 117px, 0px, -117px, 32px, 32px, 221px, 200px, 'sprite.png', 'services-shower', )
+$services-tea-name: 'services-tea'
+$services-tea-x: 168px
+$services-tea-y: 0px
+$services-tea-offset-x: -168px
+$services-tea-offset-y: 0px
+$services-tea-width: 32px
+$services-tea-height: 31px
+$services-tea-total-width: 221px
+$services-tea-total-height: 200px
+$services-tea-image: 'sprite.png'
+$services-tea: (168px, 0px, -168px, 0px, 32px, 31px, 221px, 200px, 'sprite.png', 'services-tea', )
+$services-tv-name: 'services-tv'
+$services-tv-x: 33px
+$services-tv-y: 149px
+$services-tv-offset-x: -33px
+$services-tv-offset-y: -149px
+$services-tv-width: 32px
+$services-tv-height: 23px
+$services-tv-total-width: 221px
+$services-tv-total-height: 200px
+$services-tv-image: 'sprite.png'
+$services-tv: (33px, 149px, -33px, -149px, 32px, 23px, 221px, 200px, 'sprite.png', 'services-tv', )
+$social-fb-sub-name: 'social-fb-sub'
+$social-fb-sub-x: 0px
+$social-fb-sub-y: 97px
+$social-fb-sub-offset-x: 0px
+$social-fb-sub-offset-y: -97px
+$social-fb-sub-width: 100px
+$social-fb-sub-height: 20px
+$social-fb-sub-total-width: 221px
+$social-fb-sub-total-height: 200px
+$social-fb-sub-image: 'sprite.png'
+$social-fb-sub: (0px, 97px, 0px, -97px, 100px, 20px, 221px, 200px, 'sprite.png', 'social-fb-sub', )
+$social-fb-name: 'social-fb'
+$social-fb-x: 96px
+$social-fb-y: 117px
+$social-fb-offset-x: -96px
+$social-fb-offset-y: -117px
+$social-fb-width: 32px
+$social-fb-height: 32px
+$social-fb-total-width: 221px
+$social-fb-total-height: 200px
+$social-fb-image: 'sprite.png'
+$social-fb: (96px, 117px, -96px, -117px, 32px, 32px, 221px, 200px, 'sprite.png', 'social-fb', )
+$social-vk-name: 'social-vk'
+$social-vk-x: 128px
+$social-vk-y: 117px
+$social-vk-offset-x: -128px
+$social-vk-offset-y: -117px
+$social-vk-width: 32px
+$social-vk-height: 31px
+$social-vk-total-width: 221px
+$social-vk-total-height: 200px
+$social-vk-image: 'sprite.png'
+$social-vk: (128px, 117px, -128px, -117px, 32px, 31px, 221px, 200px, 'sprite.png', 'social-vk', )
+$spritesheet-width: 221px
+$spritesheet-height: 200px
+$spritesheet-image: 'sprite.png'
+$spritesheet-sprites: ($access-arrow, $access-pay, $access-print, $access-show, $card-master, $card-visa, $checkbox, $footer-mail, $footer-map, $footer-tel, $menu-tel, $services-bar, $services-buffet, $services-business, $services-coffe, $services-drink, $services-info, $services-internet, $services-kids, $services-press, $services-shower, $services-tea, $services-tv, $social-fb-sub, $social-fb, $social-vk, )
+$spritesheet: (221px, 200px, 'sprite.png', $spritesheet-sprites, )
+
+/*
+  The provided mixins are intended to be used with the array-like variables
+
+  .icon-home
+    @include sprite-width($icon-home)
+
+  .icon-email
+    @include sprite($icon-email)
+
+  Example usage in HTML:
+    `display: block` sprite:
+    <div class="icon-home"></div>
+
+  To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+    // CSS
+    .icon {
+      display: inline-block;
+    }
+
+    // HTML
+    <i class="icon icon-home"></i>
+  */
+@mixin sprite-width($sprite)
+  width: nth($sprite, 5)
+
+@mixin sprite-height($sprite)
+  height: nth($sprite, 6)
+
+@mixin sprite-position($sprite)
+  $sprite-offset-x: nth($sprite, 3)
+  $sprite-offset-y: nth($sprite, 4)
+  background-position: $sprite-offset-x  $sprite-offset-y
+
+@mixin sprite-image($sprite)
+  $sprite-image: nth($sprite, 9)
+  background-image: url(#{$sprite-image})
+
+@mixin sprite($sprite)
+  @include sprite-image($sprite)
+  @include sprite-position($sprite)
+  @include sprite-width($sprite)
+  @include sprite-height($sprite)
+
+/*
+  The `sprites` mixin generates identical output to the CSS template
+    but can be overridden inside of SASS
+
+  @include sprites($spritesheet-sprites)
+  */
+@mixin sprites($sprites)
+  @each $sprite in $sprites
+    $sprite-name: nth($sprite, 10)
+    .#{$sprite-name}
+      @include sprite($sprite)
